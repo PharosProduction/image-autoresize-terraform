@@ -4,7 +4,7 @@ resource "aws_lambda_function" "img_resize" {
   handler          = "index.handler"
   filename         = "${data.archive_file.img_resize_zip.output_path}"
   source_code_hash = "${data.archive_file.img_resize_zip.output_base64sha256}"
-  runtime          = "nodejs10.x"
+  runtime          = "nodejs8.10"
   timeout          = "60"
 }
 
