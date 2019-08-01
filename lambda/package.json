@@ -49,22 +49,22 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.503.0",
-    "gm": "^1.23.1",
-    "image-type": "^4.1.0",
+    "aws-sdk": "^2.24.0",
+    "gm": "^1.23.0",
+    "image-type": "^3.0.0",
     "path-template": "0.0.0"
   },
   "devDependencies": {
-    "ava": "^2.2.0",
-    "aws-sdk-mock": "^4.5.0",
-    "babel-eslint": "^10.0.2",
+    "ava": "^2.0.0",
+    "aws-sdk-mock": "^1.6.1",
+    "babel-eslint": "^7.2.1",
     "bind-all": "^1.0.0",
-    "claudia": "^5.6.0",
-    "coveralls": "^3.0.5",
-    "eslint": "^6.1.0",
+    "claudia": "^5.0.1",
+    "coveralls": "^3.0.2",
+    "eslint": "^3.18.0",
     "nyc": "^14.1.1",
-    "pify": "^4.0.1",
-    "sinon": "^7.3.2"
+    "pify": "^2.3.0",
+    "sinon": "^1.17.7"
   },
   "directories": {
     "test": "test"
